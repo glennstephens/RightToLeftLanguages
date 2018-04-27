@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:RTLExample"
+             Title="{local:ise Title}"
+             FlowDirection="{x:Static Device.FlowDirection}"
+             x:Class="RTLExample.RTLExamplePage">
+
+    <Grid Padding="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+
+        <Label Text="{local:ize NameLabel}" Grid.Column="0" Grid.Row="0" VerticalOptions="Center"></Label>
+        <Entry Placeholder="{local:ize NamePlaceholder}" Grid.Column="1" Grid.Row="0" HorizontalOptions="FillAndExpand" />
+
+        <Label Text="{local:ize EmailLabel}" Grid.Column="0" Grid.Row="1" VerticalOptions="Center"></Label>
+        <Entry Placeholder="{local:ize EmailPlaceholder}" Keyboard="Email" Grid.Column="1" Grid.Row="1" HorizontalOptions="FillAndExpand" />
+
+        <Label Text="{local:ize PhoneLabel}" WidthRequest="80" Grid.Column="0" Grid.Row="2" VerticalOptions="Center"></Label>
+        <Entry Placeholder="{local:ize PhonePlaceholder}" Keyboard="Telephone" Grid.Column="1" Grid.Row="2" HorizontalOptions="FillAndExpand" />
+
+        <Button Text="{local:ize SubmitButtonText}" Grid.Column="0" Grid.Row="3" Grid.ColumnSpan="2" VerticalOptions="End" />
+    </Grid>
+</ContentPage>

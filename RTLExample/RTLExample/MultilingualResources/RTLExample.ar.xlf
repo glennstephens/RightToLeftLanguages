@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="ar" original="RTLEXAMPLE/RESOURCES/APPRESOURCES.RESX" tool-id="MultilingualAppToolkit" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="MultilingualAppToolkit" tool-name="Multilingual App Toolkit" tool-version="4.0.6900.0" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="RTLEXAMPLE/RESOURCES/APPRESOURCES.RESX" datatype="resx">
+        <trans-unit id="BackText" translate="yes" xml:space="preserve">
+          <source>Back</source>
+          <target state="translated">العوده</target>
+        </trans-unit>
+        <trans-unit id="CanContactLabel" translate="yes" xml:space="preserve">
+          <source>Can Contact</source>
+          <target state="translated">يمكننا الاتصال بك</target>
+        </trans-unit>
+        <trans-unit id="EmailLabel" translate="yes" xml:space="preserve">
+          <source>Email</source>
+          <target state="translated">البريد الإلكتروني</target>
+        </trans-unit>
+        <trans-unit id="EmailPlaceholder" translate="yes" xml:space="preserve">
+          <source>me@yourdomain.com</source>
+          <target state="translated"></target>
+        </trans-unit>
+        <trans-unit id="NameLabel" translate="yes" xml:space="preserve">
+          <source>Name</source>
+          <target state="translated">اسم</target>
+        </trans-unit>
+        <trans-unit id="NamePlaceholder" translate="yes" xml:space="preserve">
+          <source>Name</source>
+          <target state="translated">اسم</target>
+        </trans-unit>
+        <trans-unit id="PhoneLabel" translate="yes" xml:space="preserve">
+          <source>Phone</source>
+          <target state="translated">هاتف</target>
+        </trans-unit>
+        <trans-unit id="PhonePlaceholder" translate="yes" xml:space="preserve">
+          <source>555-1234</source>
+          <target state="translated"></target>
+        </trans-unit>
+        <trans-unit id="SubmitButtonText" translate="yes" xml:space="preserve">
+          <source>Submit</source>
+          <target state="translated">ارسال</target>
+        </trans-unit>
+        <trans-unit id="Title" translate="yes" xml:space="preserve">
+          <source>Left to Right</source>
+          <target state="translated">الحق في التظاهر اليسار</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
